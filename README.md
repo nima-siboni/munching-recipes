@@ -9,6 +9,7 @@ Web scraping www.allrecipes.com and returning info in form of Python dictionarie
 * BeautifulSoup
 * ultimate_sitemap_parser 
 
+![](https://gigieatscelebrities.com/wp-content/uploads/2012/12/Goat-Eating-Newspaper.jpg)
 
 ```
 pip install -r requirements.txt
