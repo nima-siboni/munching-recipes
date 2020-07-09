@@ -52,7 +52,7 @@ def scrap_to_json(raw_data_dir_name, n_recipes=10):
                 #print(tmp)
                 ingradients_list.append(tmp)
 
-            all_nutrition = all_nut = soup.find_all('span', attrs={'class': 'nutrient-name'})
+            all_nutrition = soup.find_all('span', attrs={'class': 'nutrient-name'})
             nutrient_dict = {}
             for nut_with_value in all_nutrition:
                 nut_with_value_text = nut_with_value.get_text().replace('\n', '').replace('  ', ' ').strip().split(':')
