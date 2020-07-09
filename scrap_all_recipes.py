@@ -12,4 +12,8 @@ raw_data_dir_name = os.path.join(home, 'raw_data_sets', 'recipes')
 os.makedirs(raw_data_dir_name, exist_ok=True)
 
 # 1
+
+# the second argument for the scrap_to_json is the number of recipes
+# to be scraped. The default value is 10, and if 'all' is passed, the
+# function takes all the recipes.
 scrap_to_json(raw_data_dir_name)
