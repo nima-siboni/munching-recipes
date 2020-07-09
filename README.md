@@ -18,7 +18,8 @@ For each recipe a separate dictionary is savedin the ~/raw_data_sets/recipes as 
 * recipt_id: an integer which is the id of the recipe on the website
 * name: a string, name with - as the separator
 * url: a string
-* ingredients: a list of strings where each string has both ingredient name and the amount. This should be changed to a dictionary where key is the ingredient name and value is the amount nutritions: a dictionary with the keys->nutrient name and values-> the amount
+* ingredients: a list of strings where each string has both ingredient name and the amount. This should be changed to a dictionary where key is the ingredient name and value is the amount nutritions: a dictionary with 
+ the keys->nutrient name and values-> the amount
 
 ## usage
 ```
